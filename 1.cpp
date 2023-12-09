@@ -14,11 +14,11 @@ void MainMenu() {
     cout << "------------------------------------" << endl;
     cout << ": [4]. Info Buku                   :" << endl;
     cout << "------------------------------------" << endl;
-    cout << ": [5]. Pinjam Buku                 :" << endl;
+    cout << ": [5]. Peminjaman Buku             :" << endl;
     cout << "------------------------------------" << endl;
     cout << ": [6]. Status Peminjaman           :" << endl;
     cout << "------------------------------------" << endl;
-    cout << ": [7]. Pencarian                   :" << endl;
+    cout << ": [7]. Keluar                   :" << endl;
     cout << "------------------------------------" << endl << endl;
 
 }
