@@ -34,21 +34,21 @@ char ch;
 
  if(level=="Admin") {
   cout << "====================================" << endl;
-  cout<<"Anda login sebagai Admin Dhafa" << endl;
+  cout<<"       Anda login sebagai Admin       " << endl;
   cout << "====================================" << endl;
   system("PAUSE");
   system("CLS");
  }
  else if(level=="User1") {
   cout << "====================================" << endl;
-  cout <<"Anda login sebagi User1: Haidar" << endl;
+  cout <<"   Anda login sebagi User1: Haidar   " << endl;
   cout << "====================================" << endl;
   system("PAUSE");
   system("CLS");
  }
  else {
   cout << "====================================" << endl;
-  cout<<"Pengguna tidak ditemukan" << endl;
+  cout<<"        Pengguna tidak ditemukan      " << endl;
   cout << "====================================" << endl;
   system("PAUSE");
   system("CLS");
