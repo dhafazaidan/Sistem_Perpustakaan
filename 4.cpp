@@ -2,17 +2,22 @@
 
 using namespace std;
 
-void Pilihan() {
-    cout << "pilih" << endl;
-    int a;
+int pilih;
 
-    switch(a) {
+void Pilihan() {
+    cout << "pilih :" << endl;
+    cin >> pilih;
+    }
+
+void Case() {
+    Pilihan();
+    switch(pilih) {
         case 1:
         cout << "[1]. Input Buku" << endl;
         system("cls");
         break;
         case 2 :
-        cout << "[2]. Detail Buku" << endl;
+        cout << "[2]. Info Buku" << endl;
         break;
         case 3 :
         cout << "[3]. Edit" << endl;
@@ -21,15 +26,16 @@ void Pilihan() {
         cout << "[4]. Hapus" << endl;
         break;
         case 5 :
-        cout << "[5]. Status Peminjaman" << endl;
+        cout << "[5]. Peminjaman" << endl;
         break;
         case 6 :
-        cout << "[6]. Pencarian" << endl;
+        cout << "[6]. Keluar" << endl;
         break;
         default : 
         cout << "Input tidak valid, kembali ke menu...";
+        system("pause");
         system("cls");
-        system("main0.exe");
+        Pilihan();
         break;
 
 
@@ -38,5 +44,5 @@ void Pilihan() {
     }
 
 int main() {
-    Pilihan();
+    Case();
 }
